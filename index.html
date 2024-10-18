@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Challenge App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Code Challenge App</h1>
+        </header>
+        <main>
+            <section id="problem">
+                <h2>Problem Statement</h2>
+                <p id="problem-description">Solve the following problem...</p>
+            </section>
+            <section id="editor">
+                <h2>Code Editor</h2>
+                <textarea id="code" placeholder="Write your code here..."></textarea>
+                <button id="submit">Submit</button>
+            </section>
+            <section id="result">
+                <h2>Result</h2>
+                <pre id="output"></pre>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
