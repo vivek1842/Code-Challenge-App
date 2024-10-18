@@ -1,0 +1,5 @@
+# Ignore config file with sensitive information
+config.js
+
+# Other files or directories to ignore
+*.log

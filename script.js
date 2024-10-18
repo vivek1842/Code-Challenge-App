@@ -7,8 +7,10 @@ document.getElementById('submit').addEventListener('click', async () => {
     document.getElementById('output').innerText = result;
 });
 
+
+
 async function evaluateCode(code) {
-    const apiKey = 'YOUR_OPENAI_API_KEY'; // Replace with your API key
+    const apiKey = config.OPENAI_API_KEY; // Replace with your API key
     const prompt = `
     Here is a problem statement: ${problemDescription}
     Please check the following JavaScript code for correctness:
